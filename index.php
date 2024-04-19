@@ -7,8 +7,8 @@
 </head>
 <body>
     <?php
-    $nombre = $GET_['nombre'];
-    $apellido =$GET_['apellido'];
+    $nombre = $_GET['nombre'];
+    $apellido =$_GET['apellido'];
     echo 'Hola ' . $nombre . ' ' . $apellido;
     ?>
 </body>
