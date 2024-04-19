@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-    echo"<h1>Hola {$_GET['nombre']} {$_GET['apellido']}</h1>";
+    $nombre = $GET_['nombre'];
+    $apellido =$GET_['apellido'];
+    echo('Hola ' . $nombre . ' ' . $apellido);
     ?>
 </body>
 </html>
