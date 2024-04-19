@@ -9,7 +9,7 @@
     <?php
     $nombre = $GET_['nombre'];
     $apellido =$GET_['apellido'];
-    echo('Hola ' . $nombre . ' ' . $apellido);
+    echo 'Hola ' . $nombre . ' ' . $apellido;
     ?>
 </body>
 </html>
